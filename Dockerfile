@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/omlugha/science.git  /root/BmwMD
+RUN git clone https://github.com/ekitale/maths-project.git  /root/BmwMD
 WORKDIR /root/bmwmd/
 
 
