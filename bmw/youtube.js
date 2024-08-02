@@ -12,7 +12,7 @@ zokou({
   categorie: "Search",
   reaction: "🎧"
 }, async (origineMessage, zk, commandeOptions) => {
-  const { ms, repondre, arg } = commandeOptions;
+  const { ms, repondre, arg } = nana;
      
   if (!arg[0]) {
     repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
