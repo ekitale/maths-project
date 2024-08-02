@@ -33,18 +33,8 @@ zokou({
 
 *Time :* _${videos[0].timestamp}_
 
-*Url :* _${videos[0].url}_
+*Url :* _${videos[0].url}_`
 
-
-©𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔`
-       }
-
-      
-
-      
-
-      
-       zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
       // Obtenir le flux audio de la vidéo
       const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
 
@@ -62,7 +52,7 @@ zokou({
      zk.sendMessage(origineMessage, { audio: { url:"audio.mp3"},mimetype:'audio/mp4' }, { quoted: ms,ptt: false });
         console.log("Envoi du fichier audio terminé !");
 
-     
+
       });
 
       fileStream.on('error', (error) => {
