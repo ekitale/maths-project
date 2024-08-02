@@ -102,5 +102,8 @@ else {
     
     repondre(infoMsg + menuMsg);
     
-}
-    });
+            
+                
+            }
+    [['Owner⚡', '.owner']
+         });
