@@ -13,7 +13,7 @@ zokou({
   categorie: "Search",
   reaction: "🎧"
 }, async (origineMessage, zk, nana) => {
-  const { ms, repondre, arg } = nana;
+  const { ms, repondre, nana } = nana;
      
   if (!arg[0]) {
     repondre("wrong!!! example. _play I dont give a fuck by Ibrahim Adams._");
