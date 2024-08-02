@@ -8,5 +8,5 @@
 
 </p>
 
-- <a href="https://dashboard.heroku.com/new?button-url=https://github.com/omlugha/science&template=https://github.com/omlugha/science"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=yellow&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
+- <a href="https://dashboard.heroku.com/new?button-url=https://github.com/ekitale/maths-project&template=https://github.com/ekitale/maths-project"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=yellow&style=for-the-badge&logo=bmw" width="220" height="38.45"/></a></p>
 
