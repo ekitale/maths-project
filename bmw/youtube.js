@@ -15,7 +15,7 @@ zokou({
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
+    repondre("wrong!!! Ie. _Play hozambe by shifura._");
     return;
   }
 
@@ -33,7 +33,13 @@ zokou({
 
 *Time :* _${videos[0].timestamp}_
 
-*Url :* _${videos[0].url}_`
+*Url :* _${videos[0].url}_
+
+
+©𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔`
+           };
+
+      zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
 
       // Obtenir le flux audio de la vidéo
       const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
