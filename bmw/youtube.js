@@ -11,11 +11,11 @@ zokou({
   nomCom: "play",
   categorie: "Search",
   reaction: "🎧"
-}, async (origineMessage, zk, commandeOptions) => {
+}, async (origineMessage, zk, nana) => {
   const { ms, repondre, arg } = nana;
      
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
+    repondre("wrong!!! example. _play I dont give a fuck by Ibrahim Adams._");
     return;
   }
 
