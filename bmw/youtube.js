@@ -12,8 +12,8 @@ zokou({
   nomCom: "play",
   categorie: "Search",
   reaction: "🎧"
-}, async (origineMessage, zk, nana) => {
-  const { ms, repondre, nana } = nana;
+}, async (origineMessage, zk, commandeOptions) => {
+  const { ms, repondre, commandeOptions } = commandeOptions;
      
   if (!arg[0]) {
     repondre("wrong!!! example. _play I dont give a fuck by Ibrahim Adams._");
@@ -90,7 +90,7 @@ zokou({
   const { arg, ms, repondre } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("insert video name Ie. _video hozambee by Beltah ft shifura._");
+    repondre("insert video name Ie. _Video I dont give a fuck by Ibrahim Adams._._");
     return;
   }
 
