@@ -1,4 +1,3 @@
-
 const { zokou } = require("../framework/zokou");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
@@ -13,10 +12,10 @@ zokou({
   categorie: "Search",
   reaction: "🎧"
 }, async (origineMessage, zk, commandeOptions) => {
-  const { ms, repondre, commandeOptions } = commandeOptions;
+  const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wrong!!! example. _play I dont give a fuck by Ibrahim Adams._");
+    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
     return;
   }
 
@@ -90,7 +89,7 @@ zokou({
   const { arg, ms, repondre } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("insert video name Ie. _Video I dont give a fuck by Ibrahim Adams._._");
+    repondre("insert video name Ie. _video hozambee by Beltah ft shifura._");
     return;
   }
 
