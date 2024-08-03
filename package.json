@@ -5,8 +5,7 @@
   "main": "ibrahim.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name ibrahim",
-    "stop": "pm2 stop . --attach --name ibrahim"
+    "start": "pm2 start . --attach --name ibrahim"
     "c": "tsc"
   },
   "keywords": [
