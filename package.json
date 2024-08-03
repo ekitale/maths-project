@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "",
   "main": "ibrahim.js",
+  "type": "bmwjs",
   "scripts": {
     "test": "node ibrahim.js",
     "s": "node ibrahim.js",
