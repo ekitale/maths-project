@@ -2,7 +2,6 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker:   npm run bmwmd
- 
+   worker: npm start
    
    
