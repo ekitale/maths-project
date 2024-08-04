@@ -54,15 +54,17 @@ let infoMsg =  `
 ┇ 📅 ᴅᴀᴛᴇ: ${date} 
 ╰─────═━┈┈━═──━┈⊷
 ╭─────═━┈┈━═──━┈⊷
-┇ 『𝐒𝐔𝐏𝐏𝐎𝐑𝐓』
-┇ 🔘 ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ
-> https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
-┇ 🔘 ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ
-> https://t.me/ibrahimtechai
-┇ 🔘 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ
-> https://www.youtube.com/@ibrahimaitech
-┇ ♾️ 
-> https://www.instagram.com/ibrahim_tech_official`;
+  『𝐒𝐔𝐏𝐏𝐎𝐑𝐓』
+  ♾️ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ
+  https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
+  ♾️ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ
+  https://t.me/ibrahimtechai
+  ♾️ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ
+  https://www.youtube.com/@ibrahimaitech
+  ♾️ ɪɴsᴛᴀɢʀᴀᴍ ᴘᴀɢᴇ
+  https://www.instagram.com/ibrahimadamstech
+╰─────═━┈┈━═──━┈⊷
+> ©𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔\n\n`;
     
     
 let menuMsg = `
