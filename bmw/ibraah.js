@@ -6,7 +6,7 @@ zokou({ nomCom: "bau", reaction: "🚗", nomFichier: __filename }, async (dest, 
     let z = '\n\n ' + "";
     let d = '                                                ';
     let varmess = z + d;
-    var mp4 = './bmw.mp4';
+    var mp3 = './bmw.mp4';
     await zk.sendMessage(dest, { audio: { url: mp3 }, caption: varmess });
     //console.log("montest")
     
