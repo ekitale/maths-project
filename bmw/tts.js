@@ -61,7 +61,7 @@ const {ms,arg,repondre} = commandeOptions;
 const url = googleTTS.getAudioUrl( nana, {
   lang: 'en',
   slow: false,
-  host: 'https://translate.google.com',
+  host: 'https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/sound',
 });
 console.log(url); 
              zk.sendMessage(dest, { audio: { url:url},mimetype:'audio/mp4' }, { quoted: ms,ptt: true });
