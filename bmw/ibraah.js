@@ -6,8 +6,8 @@ zokou({ nomCom: "bau", reaction: "🚗", nomFichier: __filename }, async (dest, 
     let z = '\n\n ' + "";
     let d = '                                                ';
     let varmess = z + d;
-    var mp3 = './bmw.mp4';
-    await zk.sendMessage(dest, { audio: { url:mp3},mimetype:'audio/mp4'}, 'caption': varmess });
+    var mp3 = 'https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/sound';
+    await zk.sendMessage(dest, { audio: { url:mp3}, caption: varmess });
 
     //console.log("montest")
     
