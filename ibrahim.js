@@ -249,6 +249,17 @@ function mybotpic() {
                 mybotpic
             
             };
+            };
+            if (_0x18215e === _0x79eeda && conf.CHATBOT === 'yes') {
+        const _0x485c4d = await fetch("http://api.brainshop.ai/get?bid=181821&key=ltFzFIXrtj2SVMTX&uid=[uid]&msg=" + _0x5df310);
+        const _0x4042b7 = await _0x485c4d.json();
+        await _0x9fe7a5(_0x4042b7.cnt);
+                }
+    
+        
+      if (_0x18215e === _0x79eeda && conf.AUTOREAD_MESSAGES === 'yes') {
+        _0x29ce6c.readMessages([_0x19bc4f.key]);
+                }
 
 
             /************************ anti-delete-message */
