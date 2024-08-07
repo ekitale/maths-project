@@ -1,46 +1,52 @@
 const { zokou } = require("../framework/zokou");
-const ffmpeg = require("fluent-ffmpeg");
-const fs = require('fs');
+//const ffmpeg = require("fluent-ffmpeg");
+//const fs = require('fs');
 zokou( {
   nomCom : "bao",
  categorie : "general",
   reaction : "😂" },
       async (dest, zk, commandeOptions) => {
         
-        const { ms, repondre, arg } = commandeOptions;
+       // const { ms, repondre, arg } = commandeOptions;
         
-        zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
+       // zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
 
         const audiovn = './bmw.mp4';
         
-        const fileStream = fs.createWriteStream(audiovn);
-      audioStream.pipe(fileStream);
+      //  const fileStream = fs.createWriteStream(audiovn);
+      //audioStream.pipe(fileStream);
 
-      fileStream.on('finish', () => {
+    //  fileStream.on('finish', () => {
     
-          zk.sendMessage(origineMessage, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: false });
-        console.log("Envoi du fichier audio terminé !");
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: false });
+        console.log("wrong!! text this _.alive1_");
 
   }
 });
         
         
 /**
-     zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
-      // Obtenir le flux audio de la vidéo
-      const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
+     const fortu = (m.quoted || m); 
+         const quoted = (fortu.mtype == 'buttonsMessage') ? fortu[Object.keys(fortu)[1]] : (fortu.mtype == 'templateMessage') ? fortu.hydratedTemplate[Object.keys(fortu.hydratedTemplate)[1]] : (fortu.mtype == 'product') ? fortu[Object.keys(fortu)[0]] : m.quoted ? m.quoted : m; 
 
-      // Nom du fichier local pour sauvegarder le fichier audio
-      const filename = 'audio.mp3';
+const audiovn = "./alive.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "Dreaded",
 
-      // Écrire le flux audio dans un fichier local
-      const fileStream = fs.createWriteStream(filename);
-      audioStream.pipe(fileStream);
-
-      fileStream.on('finish', () => {
-        // Envoi du fichier audio en utilisant l'URL du fichier local
-      
-
-     zk.sendMessage(origineMessage, { audio: { url:"audio.mp3"},mimetype:'audio/mp4' }, { quoted: ms,ptt: false });
-        console.log("Envoi du fichier audio terminé !");
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: "Hi human, I am Alive",
+          body: "DREADED BOT",
+          thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
+          sourceUrl: '',
+          mediaType: 1,
+          renderLargerThumbnail: true
+          }}
 **/   
