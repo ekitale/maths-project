@@ -25,8 +25,8 @@ zokou( {
    
         //console.log("wrong!! text this _.alive1_");
 
-  }
-});
+      }
+) ;    
         
         
 /**
