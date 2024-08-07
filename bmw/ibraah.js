@@ -5,7 +5,8 @@ zokou( {
   reaction : "😂" },
       async (dest, zk, commandeOptions) => {
     const audiovn = './bmw.mp4';
-          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: true });
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100] });
   }
 ) ;
         
