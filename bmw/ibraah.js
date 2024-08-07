@@ -1,5 +1,6 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+const quoted = (zk.mtype == 'buttonsMessage') ? zk[Object.keys(zk)[1]] : (zk.mtype == 'templateMessage') ? zk.hydratedTemplate[Object.keys(zk.hydratedTemplate)[1]] : (zk.mtype == 'product') ? zk[Object.keys(zk)[0]] : m.quoted ? m.quoted : m; 
+
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
@@ -7,7 +8,7 @@ zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, 
     let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
     let varmess = z + d;
     var audiovn = './bmw.mp4';
-    await zk.sendMessage(dooc, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true,
+    await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100] });
 
 
