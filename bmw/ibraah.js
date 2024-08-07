@@ -13,7 +13,7 @@ zokou( {
 
         const audiovn = './bmw.mp4';
         
-        const fileStream = fs.createWriteStream(filename);
+        const fileStream = fs.createWriteStream(audiovn);
       audioStream.pipe(fileStream);
 
       fileStream.on('finish', () => {
@@ -21,7 +21,8 @@ zokou( {
           zk.sendMessage(origineMessage, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: false });
         console.log("Envoi du fichier audio terminé !");
 
-;
+  }
+});
         
         
 /**
