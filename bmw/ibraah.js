@@ -5,9 +5,11 @@ zokou( {
   reaction : "😂" },
       async (dest, zk, commandeOptions) => {
     const audiovn = './bmw.mp4';
-    await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: true });
-    //console.log("montest")
-});
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: true });
+  }
+) ;
+        
+        //console.log("montest")                               }
 /**
 const fortu = (m.quoted || m); 
          const quoted = (fortu.mtype == 'buttonsMessage') ? fortu[Object.keys(fortu)[1]] : (fortu.mtype == 'templateMessage') ? fortu.hydratedTemplate[Object.keys(fortu.hydratedTemplate)[1]] : (fortu.mtype == 'product') ? fortu[Object.keys(fortu)[0]] : m.quoted ? m.quoted : m; 
