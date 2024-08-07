@@ -11,15 +11,15 @@ zokou( {
         
        // zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
 
-        const audiovn = './bmw.mp4';
+        const audiovn = './abe1.mp3';
         
       //  const fileStream = fs.createWriteStream(audiovn);
       //audioStream.pipe(fileStream);
 
     //  fileStream.on('finish', () => {
     
-          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: false });
-        console.log("wrong!! text this _.alive1_");
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true });
+        //console.log("wrong!! text this _.alive1_");
 
   }
 });
