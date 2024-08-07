@@ -20,7 +20,7 @@ zokou( {
 
     //  fileStream.on('finish', () => {
     
-          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true,
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},quoted: ms,ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100] });
        // console.log("Envoi du fichier audio terminé !");
    
@@ -33,7 +33,9 @@ zokou( {
 /**
      const fortu = (m.quoted || m); 
          const quoted = (fortu.mtype == 'buttonsMessage') ? fortu[Object.keys(fortu)[1]] : (fortu.mtype == 'templateMessage') ? fortu.hydratedTemplate[Object.keys(fortu.hydratedTemplate)[1]] : (fortu.mtype == 'product') ? fortu[Object.keys(fortu)[0]] : m.quoted ? m.quoted : m; 
-
+{ quoted: ms,ptt: false });
+        console.log("Envoi du fichier audio terminé !");
+  
 const audiovn = "./alive.mp3";
     const dooc = {
         audio: {
