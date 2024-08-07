@@ -1,6 +1,5 @@
 "use strict";
-const quoted = (zk.mtype == 'buttonsMessage') ? zk[Object.keys(zk)[1]] : (zk.mtype == 'templateMessage') ? zk.hydratedTemplate[Object.keys(zk.hydratedTemplate)[1]] : (zk.mtype == 'product') ? zk[Object.keys(zk)[0]] : m.quoted ? m.quoted : m; 
-
+Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
@@ -8,10 +7,7 @@ zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, 
     let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
     let varmess = z + d;
     var audiovn = './bmw.mp4';
-    await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true,
-        waveform:  [100, 0, 100, 0, 100, 0, 100] });
-
-
+    await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: true });
     //console.log("montest")
 });
 console.log("mon test");
@@ -19,7 +15,10 @@ console.log("mon test");
 /**
 const fortu = (m.quoted || m); 
          const quoted = (fortu.mtype == 'buttonsMessage') ? fortu[Object.keys(fortu)[1]] : (fortu.mtype == 'templateMessage') ? fortu.hydratedTemplate[Object.keys(fortu.hydratedTemplate)[1]] : (fortu.mtype == 'product') ? fortu[Object.keys(fortu)[0]] : m.quoted ? m.quoted : m; 
+zk.sendMessage(dest, { audio: { url:url},mimetype:'audio/mp4' }, { quoted: ms,ptt: true });
 
+
+        
 const audiovn = "./alive.mp3";
     const dooc = {
         audio: {
