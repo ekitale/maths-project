@@ -1,6 +1,5 @@
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s")
     const audiovn = './bmw.mp4';
     await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: true });
     //console.log("montest")
