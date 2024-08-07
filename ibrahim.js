@@ -57,13 +57,13 @@ async function authentification() {
     try {
        
         //console.log("le data "+data)
-        if (!fs.existsSync(__dirname + "/creds_json/creds.json")) {
+        if (!fs.existsSync(__dirname + "/jsonfile/creds.json")) {
             console.log("connexion en cour ...");
-            await fs.writeFileSync(__dirname + "/creds_json/creds.json", atob(session), "utf8");
+            await fs.writeFileSync(__dirname + "/jsonfile/creds.json", atob(session), "utf8");
             //console.log(session)
         }
-        else if (fs.existsSync(__dirname + "/creds_json/creds.json") && session != "zokk") {
-            await fs.writeFileSync(__dirname + "/creds_json/creds.json", atob(session), "utf8");
+        else if (fs.existsSync(__dirname + "/jsonfile/creds.json") && session != "zokk") {
+            await fs.writeFileSync(__dirname + "/jsonfile/creds.json", atob(session), "utf8");
         }
     }
     catch (e) {
