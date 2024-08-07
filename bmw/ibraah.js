@@ -7,7 +7,7 @@ zokou({ nomCom: "bao", reaction: "🧒", nomFichier: __filename }, async (dest, 
     let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
     let varmess = z + d;
     var audiovn = './bmw.mp4';
-    await zk.sendMessage(dest, { audio: { url: audiovn},mimetype:'audio/mp4' caption: varmess });
+    await zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'}, caption: varmess });
     //console.log("montest")
 });
 console.log("mon test");
