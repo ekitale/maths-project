@@ -9,7 +9,7 @@ zokou( {
 
         //const {ms} = commandeOptions;
         
-       // const { ms, repondre, arg } = commandeOptions;
+       const { ms, repondre, arg } = commandeOptions;
         
        // zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
 
