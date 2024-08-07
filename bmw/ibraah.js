@@ -13,15 +13,14 @@ zokou( {
         
        // zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
 
-        const audiovn = './abe1.mp3';
+        const audiovn = "./abe1.mp3";
         
       //  const fileStream = fs.createWriteStream(audiovn);
       //audioStream.pipe(fileStream);
 
     //  fileStream.on('finish', () => {
     
-          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},quoted: ms,ptt: true,
-        waveform:  [100, 0, 100, 0, 100, 0, 100] });
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},quoted: ms,ptt: true });
        // console.log("Envoi du fichier audio terminé !");
    
         //console.log("wrong!! text this _.alive1_");
