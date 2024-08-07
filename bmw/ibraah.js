@@ -6,6 +6,8 @@ zokou( {
  categorie : "general",
   reaction : "😂" },
       async (dest, zk, commandeOptions) => {
+
+        const {ms} = commandeOptions;
         
        // const { ms, repondre, arg } = commandeOptions;
         
@@ -18,7 +20,9 @@ zokou( {
 
     //  fileStream.on('finish', () => {
     
-          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},ptt: true });
+          zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},{ quoted: ms,ptt: false });
+       // console.log("Envoi du fichier audio terminé !");
+   
         //console.log("wrong!! text this _.alive1_");
 
   }
