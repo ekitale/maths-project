@@ -13,7 +13,7 @@ zokou( {
         
        // zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
 
-        const audiovn = "./bmw.mp4";
+        const audiovn = "./bmw.mp4",
         
       //  const fileStream = fs.createWriteStream(audiovn);
       //audioStream.pipe(fileStream);
