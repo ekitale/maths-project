@@ -20,7 +20,8 @@ zokou( {
 
     //  fileStream.on('finish', () => {
     
-        await  zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mp4'},caption: varmess });
+        await  zk.sendMessage(dest, { audio: { url: audiovn,mimetype:'audio/mpeg'},ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100] });
        // console.log("Envoi du fichier audio terminé !");
    
         //console.log("wrong!! text this _.alive1_");
