@@ -51,7 +51,9 @@ const _0xfec1e6 = _0x40f634(this, function () {
 });
 _0xfec1e6();
 const {
-  
+  zokou
+} = require("../framework/zokou");
+const yts = require("yt-search");
 zokou({
   'nomCom': "play",
   'categorie': "Search",
