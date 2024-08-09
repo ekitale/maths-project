@@ -1,11 +1,15 @@
 {
-  "name": "BMW-MD",
-  "version": "2.0.0",
-  "description": "best wabot in the world",
+  "name": "bmw-md",
+  "version": "1.0.0",
+  "description": "BMW MD || Don t sell it or your name will be lost. If someone wants to buy this script, tell them to contact the owner",
   "main": "ibrahim.js",
+  "type": "module",
+  "directories": {
+    "lib": "bdd"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ibrahim.js",
+    "start": "ibrahim.js",
+    "test": "ibrahim.js"
     "c": "tsc"
   },
   "keywords": [
