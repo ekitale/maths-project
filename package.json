@@ -8,8 +8,8 @@
     "lib": "bdd"
   },
   "scripts": {
-    "start": "ibrahim.js",
-    "test": "ibrahim.js"
+    "start": "node ibrahim.js",
+    "test": "node ibrahim.js"
     "c": "tsc"
   },
   "keywords": [
