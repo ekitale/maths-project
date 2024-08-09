@@ -142,7 +142,7 @@ zokou({
         };
         let _0x1d0868 = {
           
-          'caption': "*Bmw md is analyzing your audio...*"
+          'caption': "*Bmw md is analyzing your video...*"
         };
         _0x3b396b.sendMessage(_0x4e5626, _0x1d0868, {
           'quoted': _0x376a72
@@ -200,7 +200,7 @@ zokou({
         'fileSize': _0x440396.data.file_size,
         'quality': _0x440396.data.quality
       };
-      const _0x53fe98 = "*Bmw md is analyzing your audio...*;
+      const _0x53fe98 = "*Bmw md is analyzing your audio...*";
       await _0x1d1a87.sendMessage(_0x3a06ab, {
         'text': _0x53fe98
       }, {
