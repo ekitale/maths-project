@@ -1,6 +1,6 @@
 const { zokou } = require("../framework/zokou");
 const yts = require('yt-search');
-const ytdl = require('ytdl-core');
+const ytdl = require('ekitale');
 const fs = require('fs');
 const yt=require("../framework/dl/ytdl-core.js")
 const ffmpeg = require("fluent-ffmpeg");
