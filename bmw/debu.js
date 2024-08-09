@@ -1,3 +1,4 @@
+/**
 const _0x24d998 = function () {
   let _0x5e197a = true;
   return function (_0x115829, _0x273e96) {
@@ -228,3 +229,4 @@ zokou({
     _0x401be5("searching⏳.....o.");
   }
 });
+**/
